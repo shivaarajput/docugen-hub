@@ -1,4 +1,4 @@
-# docugen-hub 📄✨
+# Docugen-Hub 📄✨
 
 Craft your academic files in seconds.
 
