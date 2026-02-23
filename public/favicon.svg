@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+    <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#7c3aed" /> <!-- Violet 600 -->
+            <stop offset="100%" stop-color="#c026d3" /> <!-- Fuchsia 600 -->
+        </linearGradient>
+        <linearGradient id="fold" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ddd6fe" />
+            <stop offset="100%" stop-color="#fdf4ff" />
+        </linearGradient>
+        <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4c1d95" flood-opacity="0.4"/>
+        </filter>
+    </defs>
+    
+    <!-- App Icon Background -->
+    <rect width="512" height="512" rx="112" fill="url(#bg)" />
+    
+    <!-- Document Base -->
+    <path d="M160 128 h120 l96 96 v160 a32 32 0 0 1 -32 32 H160 a32 32 0 0 1 -32 -32 V160 a32 32 0 0 1 32 -32 z" fill="#ffffff" filter="url(#shadow)" />
+    
+    <!-- Document Fold -->
+    <path d="M280 128 v64 a32 32 0 0 0 32 32 h64 z" fill="url(#fold)" />
+    
+    <!-- Abstract Text Lines -->
+    <rect x="180" y="256" width="152" height="24" rx="12" fill="#e2e8f0" />
+    <rect x="180" y="312" width="100" height="24" rx="12" fill="#e2e8f0" />
+    
+    <!-- DocuGen Signature Dot -->
+    <circle cx="340" cy="324" r="16" fill="#7c3aed" />
+</svg>
