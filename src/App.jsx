@@ -487,7 +487,7 @@ function SuccessCard({ pdfUrl, onReset }) {
 
           {/* Action Buttons */}
           <div className="flex items-center space-x-2 sm:space-x-3 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
-            <a
+            {/* <a
               href={pdfUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -495,7 +495,7 @@ function SuccessCard({ pdfUrl, onReset }) {
             >
               <ExternalLink className="mr-2 h-4 w-4 text-slate-400" />
               Open in Drive
-            </a>
+            </a> */}
 
             <a
               href={pdfUrl}
